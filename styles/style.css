@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.text-1 {
+  font: bold 2rem/1 "Fraunces", serif;
+}
+
+.text-2 {
+  font: bold 0.9rem/1.1 "Montserrat", sans-serif;
+}
+
+.text-3 {
+  font: 0.9rem/1.6 "Montserrat", sans-serif;
+}
+
+.text-4 {
+  font: 0.75rem/1.2 "Montserrat";
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.text-5 {
+  font: 0.8rem/1.2 "Montserrat", sans-serif;
+  text-decoration: line-through;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2EAE2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  margin: 0.5rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 610px) {
+  body .product-card {
+    flex-direction: row;
+    width: 600px;
+  }
+}
+body .product-card__product-image {
+  flex: 1;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+body .product-card__product-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+@media (min-width: 610px) {
+  body .product-card__product-image img {
+    width: 300px;
+    height: 100%;
+  }
+}
+body .product-card__product-info {
+  flex: 1;
+  padding: 2rem;
+}
+body .product-card__product-info .product-type {
+  margin-bottom: 1.5rem;
+}
+body .product-card__product-info .product-name {
+  margin-bottom: 1.5rem;
+}
+body .product-card__product-info .product-description {
+  margin-bottom: 1.5rem;
+  color: #6C7289;
+}
+body .product-card__product-info .current-price {
+  display: inline-block;
+  color: #3D8168;
+}
+body .product-card__product-info .original-price {
+  display: inline-block;
+  color: #6C7289;
+}
+body .product-card__product-info button {
+  display: block;
+  margin-top: 1.5rem;
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  background-color: #3D8168;
+  padding: 1rem;
+}
+body .product-card__product-info button:hover {
+  background-color: #1A4032;
+}
+body .product-card__product-info button img {
+  display: inline-block;
+  vertical-align: middle;
+}
+body .product-card__product-info button p {
+  display: inline-block;
+  padding: 0 0.5rem;
+  vertical-align: middle;
+}
+@media (min-width) {
+  body .product-card__product-info {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
