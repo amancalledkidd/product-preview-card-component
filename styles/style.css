@@ -86,10 +86,13 @@ body .product-card__product-info .product-description {
 body .product-card__product-info .current-price {
   display: inline-block;
   color: #3D8168;
+  vertical-align: middle;
 }
 body .product-card__product-info .original-price {
   display: inline-block;
   color: #6C7289;
+  vertical-align: middle;
+  margin-left: 1rem;
 }
 body .product-card__product-info button {
   display: block;

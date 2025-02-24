@@ -106,12 +106,14 @@ body {
             .current-price {
                 display: inline-block;
                 color: $clr-green-500;
-                
+                vertical-align: middle;
             }
 
             .original-price {
                 display: inline-block;
                 color: $clr-grey;
+                vertical-align: middle;
+                margin-left: $space-200;
             }
 
             button {
